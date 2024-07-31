@@ -1,0 +1,18 @@
+.logo img {
+    float: left;
+    height: 50px;
+    width: auto;
+}
+
+.site-header {
+    float: left;
+    margin: 22px 175px 0 ;
+    position: relative;
+}
+
+.site-header section {
+    height: 72px;
+    margin: 0 auto;
+    position: relative;
+    width: 950px;
+}
