@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href = "style.css">
-    <script src = "script.js"></script>
-    <title>MSPN</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>MSPN - Track your movies and series</title>
     
 </head>
 
-<body style = "background-color: rgb(17, 38, 70);">
+<body>
     <nav>
         <a href="/" class="logo">
             <img src="logo-no-background.png">
@@ -18,9 +19,15 @@
             <a href="/" class="sign-in">Sign in</a>
             <a href="/" class="create-account">Create account</a>
             <a href="/" class="about-page">About</a>
-            <input type="text" placeholder="Search...">
-            <button type="submit">Search</button>
+            <input type="text" placeholder="Search..." class="search-bar">
+            <!-- <button type="submit">Search</button> -->
+             <label>
+                <button type="button" class="theme">Theme</button>
+                <ion-icon name="moon" class="dark-mode"></ion-icon>
+             </label>
         </div>
     </nav>
+    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non justo quis purus rhoncus gravida lobortis ac libero. Praesent non tempus mi, eget faucibus nulla. Donec et augue sollicitudin, porttitor felis a, convallis lorem. Suspendisse egestas efficitur tortor, malesuada imperdiet enim dignissim id. Duis risus nunc, placerat non consectetur eu, imperdiet eu sapien. Quisque ut ex ornare, cursus est sed, tristique lacus. Ut ullamcorper sollicitudin massa eget laoreet. Praesent non ipsum ipsum. Cras vitae porttitor tellus. Ut viverra augue purus, in interdum est pretium nec. Sed vel dui ac nisi varius scelerisque. Sed lorem justo, ultrices in egestas sed, tempus id enim. </h6>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -13,11 +13,75 @@ nav {
     backdrop-filter: blur(4px);
     position: relative;
     display: flex;
+    background-color: transparent;
 }
 
 .sign-in {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
-    font-family:'Trebuchet MS';
-    color: gray;
+    font-family:sans-serif;
+    color: rgb(30, 84, 148);
+    text-decoration: none;
+    margin-right: 15px
+}
+
+.create-account {
+    font-size: 20px;
+    font-weight: bold;
+    font-family:sans-serif;
+    color: rgb(30, 84, 148);
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.about-page {
+    font-size: 20px;
+    font-weight: bold;
+    font-family:sans-serif;
+    color: rgb(30, 84, 148);
+    text-decoration: none;
+}
+
+.search-bar {
+    font-size: 17px;
+    margin: 10px;
+}
+
+.theme {
+    border-radius: 8px;
+    background-color:rgb(30, 84, 148);;
+    color: rgb(255 ,255 ,255);
+    font-family: sans-serif;
+    margin-left: 5px;
+    font-size: 20px;
+    overflow: visible;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;   
+}
+
+h6 {
+    font-size: 15px;
+    align-items: center;
+    margin: 200px;
+}
+
+
+.theme:hover {
+    color: rgb(255 ,255 ,255);
+    background-color: rgb(0, 0, 0);
+}
+
+.dark {
+    color: rgb(255 ,255 ,255);
+    background-color: rgb(43, 43, 43);
+}
+
+.dark .theme {
+    background-color: rgb(255 ,255 ,255);
+    color:rgb(0, 0, 0)
+}
+
+.dark .theme:hover {
+    background-color: rgb(255 ,255 ,255);
 }
